@@ -14,10 +14,10 @@
     </style>
   </head>
   <body>
+    {% include 'nav.html' %}
+    <img class="mt-5" src="https://careers-flask.vibavmahendran.repl.co/static/banner.jpg">
     <div class="container">
-       <h1 class="text-center mt-2 mb-4">Careers</h1>
-       <img src="https://careers-flask.vibavmahendran.repl.co/static/banner.jpg">
-       <h2 class="text-center mt-4 mb-4">About us</h2>
+       <h1 class="text-center mt-4 mb-4">Careers</h1>
          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pretium dolor eu pellentesque congue. Integer elementum mi bibendum blandit laoreet. Sed aliquet nisi vel metus posuere, quis egestas felis rhoncus. Nullam semper finibus diam, sit amet lacinia justo posuere vitae. Proin sed ex id felis blandit dignissim. Aenean lacinia accumsan nisl, interdum tempus sem dapibus nec. Vivamus vulputate risus quis varius dictum. In iaculis purus ac nisl rhoncus sagittis eu et mauris. Aliquam id nunc erat. Proin tristique auctor porttitor. Cras eu maximus mi, vitae tincidunt metus. Phasellus vestibulum cursus velit, a fermentum ante fermentum eget.</p>
     <h2 class="text-center">Job Openings</h2>
         <div>
@@ -27,8 +27,8 @@
         </div>
       <div class="text-center"> 
       <button class="btn btn-primary btn-lg">Contact Us</button>
-        <p class="mt-4">Copyright 2022</p>
       </div>
       </div>
+     {% include 'footer.html' %}
   </body>
 </html>
